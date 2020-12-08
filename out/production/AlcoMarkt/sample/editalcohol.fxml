@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="821.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditAlcoholController">
+   <children>
+      <Label layoutX="299.0" layoutY="7.0" prefHeight="58.0" prefWidth="210.0" text="Edit Alcohol" textFill="RED">
+         <font>
+            <Font name="GOST Common" size="41.0" />
+         </font>
+      </Label>
+      <Button fx:id="MenuButton" layoutX="749.0" layoutY="18.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font name="GOST Common" size="19.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="ProductArea" editable="false" layoutY="57.0" prefHeight="290.0" prefWidth="831.0" />
+      <TextField fx:id="AmountField" layoutX="166.0" layoutY="347.0" prefHeight="58.0" prefWidth="76.0" promptText="Amount" />
+      <TextField fx:id="IdField" layoutX="14.0" layoutY="347.0" prefHeight="58.0" prefWidth="76.0" promptText="ID" />
+      <TextField fx:id="CostField" layoutX="90.0" layoutY="347.0" prefHeight="58.0" prefWidth="76.0" promptText="Cost" />
+      <Button fx:id="EditButton" layoutX="242.0" layoutY="347.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="58.0" text="Edit">
+         <font>
+            <Font name="GOST Common" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

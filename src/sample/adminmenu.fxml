@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="821.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminMenuController">
+   <children>
+      <Label layoutX="315.0" layoutY="12.0" text="AdminMenu" textFill="#f20000">
+         <font>
+            <Font name="GOST Common" size="41.0" />
+         </font>
+      </Label>
+      <Button fx:id="EditButton" layoutX="336.0" layoutY="181.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="170.0" text="Edit Alco">
+         <font>
+            <Font name="GOST Common" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="MenuButton" layoutX="744.0" layoutY="14.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="63.0" text="Exit">
+         <font>
+            <Font name="GOST Common" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeleteButton" layoutX="651.0" layoutY="181.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="170.0" text="Delete Alco">
+         <font>
+            <Font name="GOST Common" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="AddButton" layoutX="14.0" layoutY="181.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="170.0" text="Add Alco">
+         <font>
+            <Font name="GOST Common" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

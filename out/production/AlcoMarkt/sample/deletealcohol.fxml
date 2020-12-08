@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="821.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeleteAlcoholController">
+   <children>
+      <Label layoutX="280.0" layoutY="7.0" prefHeight="58.0" prefWidth="270.0" text="Delete Alcohol" textFill="RED">
+         <font>
+            <Font name="GOST Common" size="41.0" />
+         </font>
+      </Label>
+      <Button fx:id="MenuButton" layoutX="749.0" layoutY="18.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font name="GOST Common" size="19.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="ProductArea" editable="false" layoutY="57.0" prefHeight="290.0" prefWidth="831.0" />
+      <TextField fx:id="IdField" layoutX="279.0" layoutY="345.0" prefHeight="58.0" prefWidth="76.0" promptText="ID" />
+      <Button fx:id="DeleteButton" layoutX="356.0" layoutY="344.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="96.0" text="Delete">
+         <font>
+            <Font name="GOST Common" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
